@@ -1,0 +1,48 @@
+﻿<Window x:Class="U1CareersShipston.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U1CareersShipston"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="525"
+        FontSize="20">
+    <Grid>
+        <Label
+            x:Name="lblMainLabel"
+            Content="" 
+            Margin="0,0,0,234"
+            HorizontalContentAlignment="Center"
+            FontSize="25"
+            FontWeight="Bold"/>
+        <TextBlock
+            x:Name="txtInformation"
+            Text="" 
+            Margin="281,85,0,0"
+            TextWrapping="Wrap"/>
+        <Image x:Name="imgMainPage"
+               Source="https://pbs.twimg.com/profile_images/886961824855412736/lp1yfFWp_400x400.jpg" 
+               Margin="0,85,241,63"/>
+        <Button x:Name="btnEducation"
+                Content="Education Requirements"
+                Click="btnEducation_Click" 
+                Margin="0,306,373,33"
+                FontSize="12"/>
+        <Button x:Name="btncourses"
+                Content="Courses"
+                Click="btncourses_Click"
+                FontSize="12" 
+                Margin="144,306,239,33"/>
+        <Button x:Name="btnCareer"
+                Content="Career Paths"
+                Click="btnCareer_Click"
+                FontSize="12" 
+                Margin="0,336,373,0"/>
+        <Button x:Name="btnFirstScreen"
+                Content="Basic information"
+                Click="btnBasicInfo_Click"
+                FontSize="12" 
+                Margin="144,336,239,0"/>
+
+    </Grid>
+</Window>
