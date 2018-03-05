@@ -19,7 +19,8 @@
             x:Name="txtInformation"
             Text="" 
             Margin="281,85,0,0"
-            TextWrapping="Wrap"/>
+            TextWrapping="Wrap"
+            FontSize="15"/>
         <Image x:Name="imgMainPage"
                Source="https://pbs.twimg.com/profile_images/886961824855412736/lp1yfFWp_400x400.jpg" 
                Margin="0,85,241,63"/>
@@ -43,6 +44,30 @@
                 Click="btnBasicInfo_Click"
                 FontSize="12" 
                 Margin="144,336,239,0"/>
-
+        <Button x:Name="btnFirstYearCourses"
+                Content="First Year Courses"
+                Click="btnFirstYearCourses_Click"
+                Visibility="Hidden" 
+                Margin="281,85,17,214"/>
+        <Button x:Name="btnMoreCourses"
+                Content="Post First year"
+                Click="btnMoreCourses_Click"
+                Visibility="Hidden"
+                Margin="281,160,17,139"/>
+        <Button x:Name="btnCourseCont"
+                Click="btnCourseCont_Click"
+                Content="Continue"
+                Visibility="Hidden" 
+                Margin="281,318,0,4"/>
+        <Button x:Name="btnCourseCont2"
+                Click="btnCourseCont2_Click"
+                Content="Continue"
+                Margin="281,318,0,4"
+                Visibility="Hidden"/>
+        <Button x:Name="btnCourseCont3"
+                Click="btnCourseCont3_Click"
+                Content="Continue"
+                Margin="281,318,0,4"
+                Visibility="Hidden"/>
     </Grid>
 </Window>
